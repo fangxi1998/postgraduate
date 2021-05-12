@@ -48,7 +48,7 @@ for i in range(data.shape[0]):
         textline=[]
     for j in range(data.shape[1]):
         textline.append(data.iloc[i][j])
-   # print(textline)方喜370982199804088019
+   # print(textline)
     
     if(i%2!=0 and i!=0):
         if(i<10):
